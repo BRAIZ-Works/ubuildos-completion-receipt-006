@@ -1,0 +1,2 @@
+# Recovery / Rollback
+The product is static source. Recovery consists of restoring the exact release package/repository commit and redeploying it. User-entered session data is intentionally not backed up. Before release, cold restore from the final package must be tested and verified.
