@@ -1,0 +1,2 @@
+# Security Summary
+The planned release is a static local browser app with synthetic data, no authentication, no privileged actions, no analytics/tracking, and no required runtime network dependency. User-visible values are rendered with textContent. CSV export neutralizes formula-leading cells. Public-release closeout still requires source, dependency, secret/IP, Git-history, and live-surface checks.
