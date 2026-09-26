@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vendor Renewal Tracker</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar"><div>DAY 05 · VENDOR RENEWAL TRACKER</div><div>PUBLIC-SAFE · LOCAL-ONLY</div></header>
+<main>
+<section class="hero">
+<p class="eyebrow">PREVENT SURPRISES</p>
+<h1>Know what renews next.</h1>
+<p class="lede">See which vendor renewals are overdue, within 7, 30, or 60 days, later, or missing a usable date — and who owns each one.</p>
+<div class="notice"><strong>Demo only.</strong> Synthetic data. Do not enter confidential, regulated, credential, or customer-private information.</div>
+</section>
+<section class="toolbar" aria-label="Tracker controls">
+<label>As-of date <input id="asOf" type="date" aria-label="As-of date"></label>
+<label>Show <select id="filter"><option value="ALL">All</option><option>OVERDUE</option><option>DUE_7</option><option>DUE_30</option><option>DUE_60</option><option>REVIEW</option><option>LATER</option></select></label>
+<button id="export" type="button">Export CSV</button>
+<button id="reset" type="button">Reset synthetic data</button>
+</section>
+<p id="summary" class="summary" aria-live="polite"></p>
+<div class="table-wrap">
+<table>
+<thead><tr><th>Vendor / service</th><th>Owner</th><th>Renewal date</th><th>Days</th><th>Window</th><th>Why</th><th>Notes</th></tr></thead>
+<tbody id="rows"></tbody>
+</table>
+</div>
+<section class="add-card">
+<h2>Add a synthetic renewal</h2>
+<form id="addForm">
+<label>Vendor / service <input name="vendor" required maxlength="120"></label>
+<label>Renewal date <input name="renewalDate" type="date"></label>
+<label>Owner <input name="owner" maxlength="80"></label>
+<label>Notes <textarea name="notes" maxlength="400"></textarea></label>
+<button type="submit">Add synthetic renewal</button>
+</form>
+</section>
+<section class="rules">
+<h2>How the windows work</h2>
+<ul>
+<li><strong>OVERDUE</strong>: before the as-of date</li>
+<li><strong>DUE_7</strong>: 0–7 days away</li>
+<li><strong>DUE_30</strong>: 8–30 days away</li>
+<li><strong>DUE_60</strong>: 31–60 days away</li>
+<li><strong>LATER</strong>: more than 60 days away</li>
+<li><strong>REVIEW</strong>: missing or invalid date — never guessed or hidden</li>
+</ul>
+</section>
+</main>
+<footer>Built as a bounded public proof for the UBuildOS 30-day campaign.</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>
