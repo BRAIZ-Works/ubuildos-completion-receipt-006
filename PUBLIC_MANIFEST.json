@@ -1,0 +1,80 @@
+{
+  "schema": "UBUILDOS_DAY05_PUBLICATION_MANIFEST_V1",
+  "version": "1.0.0",
+  "product_subject_sha256": "74993a74e093cdc4211d8edc5da8f1bc0cb3a17e8c7708fd057e45fa1c3cf770",
+  "fresh_iqa_transport_sha256": "4e23413c13cb03194cd900462948cf5cdc24764ed34b59a7c6d99211fe2058f3",
+  "fresh_iqa_verdict": "PASS",
+  "owner_accepted": true,
+  "frozen_product": true,
+  "publication_projection": true,
+  "repository": "BRAIZ-Works/ubuildos-completion-receipt-006",
+  "pages_url": "https://braiz-works.github.io/ubuildos-completion-receipt-006/",
+  "publication_base_commit": "dac5995c5f020f317cb102f14c7984585c7a70ba",
+  "multi_viewport_live_readback": "PASS",
+  "files": [
+    {
+      "path": "AI_REVIEWER_REPRODUCIBILITY.md",
+      "sha256": "3527995854e072f1a9ae0cf0195beec1d2dac6126072807b7101f07eb1548a76"
+    },
+    {
+      "path": "CLAIMS_AND_LIMITATIONS.md",
+      "sha256": "9e6b5ebc80201b9606651007d02b1bd4e4a4cd715847f5453571e8de4bd42e7d"
+    },
+    {
+      "path": "DEPENDENCY_PROVENANCE.md",
+      "sha256": "7c519a4802a1f38b7cdee8f30dfa433b9ec6f98c47dc9b59d488ba4e3716cb81"
+    },
+    {
+      "path": "METHODOLOGY.md",
+      "sha256": "20667624683433252a373f40d608051cb750623c7bcf75d71a3b398fbb354e60"
+    },
+    {
+      "path": "PRIVACY.md",
+      "sha256": "0d29d7ed67cf1c861047cc548eedd6798405971ee15e5677c9c6f48db85aa13f"
+    },
+    {
+      "path": "README.md",
+      "sha256": "10875786f580253402021f5bab87b19cf5442b32c7334ce97df0fc05019898cf"
+    },
+    {
+      "path": "RECOVERY.md",
+      "sha256": "76fe31ba8e041d161205720dfb60a1d59642f3b52e515b0d6e9b7b4bcf85fb63"
+    },
+    {
+      "path": "RIGHTS_AND_USE.md",
+      "sha256": "b77ffcf1301bc7db729cb0e93b25d6d80f98b2842e862572f7b561b804e9ace6"
+    },
+    {
+      "path": "RISK_WINDOW_VIEW.html",
+      "sha256": "433f0c388c4bc9062bed90683c78a931b00e8088c624a409d4c20062e35b1b73"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "eaab56a868d6b8619414ec02e25e6374a18e03b08ed799e9d095cc19a5f90939"
+    },
+    {
+      "path": "SECURITY_CONTACT.md",
+      "sha256": "3f59a4c64ab88726675cdb2e32752af8a8e8bf8798db878298b3fd81bd81b1a4"
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "5459e00f98d41fc22afb62febeb39253f76c36e7d437070b11c96d00f6a40f1b"
+    },
+    {
+      "path": "app.js",
+      "sha256": "a0114160729f8f2757f68a7ad4d538f67f679d058ca834315cf0dc4b1a73a453"
+    },
+    {
+      "path": "index.html",
+      "sha256": "48bc238be978ff5b4285e3d09599fca456c8892fba19f2eb01468020c467b310"
+    },
+    {
+      "path": "logic.mjs",
+      "sha256": "4fe5090bf182aa5767ba7881327f20ba83b5f72aa5375c15d5690b8aae8edc18"
+    },
+    {
+      "path": "styles.css",
+      "sha256": "c8701134f08ab363030d13377ca0aaaa542a77f620747561477add324c71d599"
+    }
+  ]
+}
