@@ -15,11 +15,11 @@ It does not cancel, buy, pay, negotiate, contact vendors, access vendor accounts
 Open `index.html` in a modern browser. No build step or required runtime network service is needed.
 
 ## Live URL
-Planned GitHub Pages URL after publication is enabled and verified:
+Verified public GitHub Pages URL:
 
 `https://braiz-works.github.io/ubuildos-completion-receipt-006/`
 
-Do not treat that URL as live until the deployment and rendered surface are read back successfully.
+The deployed public surface was read back after publication, including responsive mobile, tablet, and desktop presentation.
 
 ## Evidence boundary
 The frozen Day-05 product subject passed Fresh Independent QA before this public projection. This repository is the publication projection and must not be treated as a replacement for the frozen product identity.
