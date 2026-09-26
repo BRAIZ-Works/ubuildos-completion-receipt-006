@@ -1,0 +1,2 @@
+# Security Contact
+For a security concern in the public demo, use the repository's issue/contact channel designated by BRAIZ Works. Do not post credentials, secrets, private customer data, or exploit details publicly.
