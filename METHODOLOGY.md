@@ -1,0 +1,2 @@
+# Methodology
+Date-only classification uses an explicit as-of date and UTC calendar-day arithmetic to avoid locale/time-zone ambiguity. States are: OVERDUE (<0), DUE_7 (0–7), DUE_30 (8–30), DUE_60 (31–60), LATER (>60), REVIEW (missing/invalid). Missing dates are never guessed or hidden.
