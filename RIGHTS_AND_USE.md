@@ -1,0 +1,2 @@
+# Rights / Use Boundary
+Use only data and material you are authorized to use. This public demo is not legal, financial, procurement, tax, or regulatory advice. Do not use it for confidential, regulated, credential, or customer-private information.
