@@ -1,0 +1,2 @@
+# Dependency / Provenance Summary
+Runtime dependencies: none outside standard browser platform APIs. Build dependencies: none. Test dependencies: none outside Node.js standard libraries. `npm test` invokes the local deterministic test script in `tests/run_tests.mjs`. Product source is `index.html`, `styles.css`, `logic.mjs`, and `app.js`.
