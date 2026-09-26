@@ -1,0 +1,2 @@
+# Privacy / Data Handling
+Public demo data is synthetic. User-entered values exist only in the current browser session unless the user exports a CSV. No cloud storage, analytics, account system, or telemetry collection is implemented. Reload/reset clears in-memory state. Exported files are controlled by the user.
