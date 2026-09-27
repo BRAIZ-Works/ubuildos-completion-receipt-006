@@ -21,6 +21,11 @@ Verified public GitHub Pages URL:
 
 The deployed public surface was read back after publication, including responsive mobile, tablet, and desktop presentation.
 
+## LinkedIn publication
+Day 5 public campaign post:
+
+`https://lnkd.in/p/eHR5HS3t`
+
 ## Evidence boundary
 The frozen Day-05 product subject passed Fresh Independent QA before this public projection. This repository is the publication projection and must not be treated as a replacement for the frozen product identity.
 
